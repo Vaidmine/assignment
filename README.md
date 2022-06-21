@@ -1,3 +1,3 @@
 # assignment
 
-## this project is for educational purposes only
+### this project is for educational purposes only
