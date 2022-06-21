@@ -80,33 +80,39 @@ button:hover {
 }
 
 
-/* content */
+/* content in orange */
 
-.content-wrapper {
+.content-in-orange {
     border: 1px solid red;
     position: relative;
 }
 
-.content-orange-back {
+.content-in-orange-back {
     padding-right: 50px;
     padding-left: 50px;
     background-image: url(./assets/background.svg);
+    height: 200px;
 }
 
-.content img {
+.content-in-orange img {
     position: absolute;
     right: 0;
     top: 0;
     height: 100%;
 }
 
-.content h2 {
-    margin-bottom: 15px;
+.content-in-orange-back h2 p {
+    margin-top: 15px;
     position: relative;
 }
 
 
-/* conmpanies */
+/* .content-orange-back {
+
+} */
+
+
+/* companies */
 
 .companies {
     display: flex;
@@ -115,6 +121,11 @@ button:hover {
 .companies-list {
     margin: 50px;
     justify-content: space-between;
+}
+
+.companies-list img {
+    max-height: 10vh;
+    padding: 20px;
 }
 
 @media only screen and (min-width: 700px) {
